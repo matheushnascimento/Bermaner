@@ -1,0 +1,16 @@
+{
+  "name": "bermaner",
+  "version": "1.0.0",
+  "description": "encurtador de link",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "knex": "^3.1.0",
+    "next": "^14.2.3",
+    "react": "^18.3.1"
+  }
+}

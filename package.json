@@ -4,13 +4,16 @@
   "description": "encurtador de link",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "migrate": "knex migrate:up"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "knex": "^3.1.0",
     "next": "^14.2.3",
-    "react": "^18.3.1"
+    "react": "^18.3.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
   }
 }
